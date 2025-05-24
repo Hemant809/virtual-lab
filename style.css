@@ -16,7 +16,6 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   color: rgb(1, 11, 9);
   background: rgba(220, 230, 250, 0.622);
 }
@@ -27,7 +26,6 @@ header{
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  width: 100%;
   font-family: "Roboto", sans-serif;
   color: #5b5b5b;
   gap: 50px;
