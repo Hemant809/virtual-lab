@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <h1>Virtual Lab</h1>
+      </div>
+    </header>
+    <section class="container">
+      <h1>Modulation Signal Visualization</h1>
+      <div class="input-section">
+        <!-- message frequency -->
+        <div class="input-group">
+          <label for="messageFrequency">Message Frequency (Hz):</label>
+          <input type="number" id="messageFrequency" value="1" />
+        </div>
+
+        <!-- message Amplitude -->
+        <div class="input-group">
+          <label for="messageAmplitude">Message Amplitude:</label>
+          <input type="number" id="messageAmplitude" value="1" />
+        </div>
+
+        <!-- message waveform -->
+        <div class="input-group">
+          <label for="messageWaveform">Message Waveform:</label>
+          <select id="messageWaveform">
+            <option value="sine">Sine</option>
+            <option value="square">Square</option>
+            <option value="triangle">Triangle</option>
+          </select>
+        </div>
+
+        <!-- carrier frequency -->
+        <div class="input-group">
+          <label for="carrierFrequency">Carrier Frequency (Hz):</label>
+          <input type="number" id="carrierFrequency" value="10" />
+        </div>
+
+        <!-- Carrier Amplitude -->
+        <div class="input-group">
+          <label for="carrierAmplitude">Carrier Amplitude:</label>
+          <input type="number" id="carrierAmplitude" value="1" />
+        </div>
+
+        <!-- Carrier Waveform -->
+        <div class="input-group">
+          <label for="carrierWaveform">Carrier Waveform:</label>
+          <select id="carrierWaveform">
+            <option value="sine">Sine</option>
+            <option value="square">Square</option>
+            <option value="triangle">Triangle</option>
+          </select>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
